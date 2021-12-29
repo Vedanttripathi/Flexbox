@@ -1,0 +1,82 @@
+.contact-main {
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "contact-left contact-right";
+  padding: 2rem;
+}
+
+.contact-left {
+  grid-area: contact-left;
+  height: inherit;
+  display: grid;
+  place-content: center;
+}
+
+.iphone {
+  height: 80vh;
+}
+
+.contact-right {
+  grid-area: contact-right;
+  display: grid;
+  place-content: center;
+}
+
+.contact-form {
+  height: 75vh;
+  width: 40vw;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  display: grid;
+  place-content: start;
+  place-items: center;
+}
+
+.form-heading {
+  margin: 5rem 2rem 2rem 1rem;
+  color: #01a289;
+}
+
+.name-email {
+  display: flex;
+}
+
+.input-element {
+  width: 15vw;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  margin: 2rem 1rem 1rem 1rem;
+  padding: 0rem 10px;
+}
+
+.input-subject {
+  width: 34.5vw;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  margin: 1rem 1rem;
+  padding: 0rem 10px;
+}
+
+.input-message {
+  width: 34.5vw;
+  height: 8rem;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  margin: 1rem 1rem;
+  padding: 0rem 10px;
+}
+
+.btn {
+  width: 8rem;
+  height: 2.5rem;
+  background-color: #01a289;
+  color: white;
+  box-shadow: none;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  justify-content: center;
+  cursor: pointer;
+}
